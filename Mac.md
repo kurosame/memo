@@ -16,6 +16,16 @@
 1. 同期させるフォルダーを`~/Google Drive`に変更
 1. Google Drive 上の`Sync`フォルダーのみを同期する
 
+## SSH Key
+
+### Public Key
+
+`~/Google Drive`フォルダーにある
+
+### Private Key
+
+USB メモリから PC 上にコピーする
+
 ## ghq
 
 1. 移行元 PC から`ghq list`の結果を送ってもらう
