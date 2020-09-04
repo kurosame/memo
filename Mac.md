@@ -47,3 +47,5 @@ USB メモリから PC 上にコピーする
 [https://github.com/kurosame/dotfiles:embed:cite]
 
 ## シンボリックリンクを貼る
+
+`ln -s ~/ghq/github.com/kurosame/dotfiles/.gitconfig ~`
