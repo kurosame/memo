@@ -34,6 +34,10 @@ USB メモリから PC 上にコピーする
 
 ## Visual Studio Code
 
+1. UI 左下の設定から`Turn on Settings Sync...`を実行
+   - 同期対象はすべてチェックしておく
+1. `Replace Local`を実行
+
 ---
 
 # _`~/`配下の`.`ファイル_
