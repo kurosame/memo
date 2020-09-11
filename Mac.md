@@ -20,6 +20,7 @@
     - カーソルの速度調整
   - 省エネルギー
     - バッテリーと電源アダプターのオフ時間を 3 時間にする
+    - メニューバーのバッテリーから割合（％）を表示
 - Homebrew と Homebrew Cask をインストール
 
 ## Finder
@@ -32,12 +33,34 @@
 - 隠しファイルを表示
   - `command + shift + .`
 
+## Terminal
+
+- 一般
+  - 起動時に開くプロファイルを変更
+- プロファイル
+  - プロファイルを探してインポートする
+    - オススメのプロファイル
+      - [Iceberg](https://cocopon.github.io/iceberg.vim)
+  - インポートしたプロファイルをデフォルトにする
+  - ウインドウ
+    - ウインドウサイズを調整
+  - シェル
+    - シェルの終了時はウインドウを閉じる
+    - ウインドウを閉じる前の確認はしない
+- デフォルトのシェルを zsh に変更
+  - `chsh -s /bin/zsh`
+
 ## Homebrew
 
 旧 PC で以下のコマンドを実行し、必要なアプリケーションのみを移行する
 
 - `brew list`
 - `brew cask list`
+
+## dotfiles
+
+シンボリックリンクを貼る  
+`ln -s ~/ghq/github.com/kurosame/dotfiles/[ファイル名] [作成先フォルダー名]`
 
 ## Google Backup and Sync
 
@@ -67,15 +90,3 @@ USB メモリから PC 上にコピーする
 1. UI 左下の設定から`Turn on Settings Sync...`を実行
    - 同期対象はすべてチェックしておく
 1. `Replace Local`を実行
-
----
-
-# _`~/`配下の`.`ファイル_
-
-## 常日頃から GitHub リポジトリで管理しておくようにする
-
-[https://github.com/kurosame/dotfiles:embed:cite]
-
-## シンボリックリンクを貼る
-
-`ln -s ~/ghq/github.com/kurosame/dotfiles/.gitconfig ~`
