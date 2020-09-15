@@ -52,6 +52,11 @@
 - デフォルトのシェルを zsh に変更
   - `chsh -s /bin/zsh`
 
+## Zsh
+
+Prezto をインストール  
+https://github.com/sorin-ionescu/prezto#installation
+
 ## Homebrew
 
 旧 PC で以下のコマンドを実行し、必要なアプリケーションのみを移行する
@@ -63,6 +68,9 @@
 
 シンボリックリンクを貼る  
 `ln -s ~/ghq/github.com/kurosame/dotfiles/[ファイル名] [作成先フォルダー名]`
+
+**作業前に確認**  
+すでに`.`ファイルが作られている可能性があるので、それを上書きしないようにする
 
 ## Google Backup and Sync
 
