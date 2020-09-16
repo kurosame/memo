@@ -97,6 +97,10 @@ USB メモリから PC 上にコピーする
 1. `ghq list`の GitHub リポジトリをすべてクローンする
    - `ghq get https://github.com/kurosame/[リポジトリ名].git`
 
+## fnm
+
+Node.js をインストールする
+
 ## Visual Studio Code
 
 1. UI 左下の設定から`Turn on Settings Sync...`を実行
