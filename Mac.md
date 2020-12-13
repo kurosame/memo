@@ -59,6 +59,9 @@
 Prezto をインストール  
 https://github.com/sorin-ionescu/prezto#installation
 
+ZSH-z をインストール  
+https://github.com/agkozak/zsh-z#for-prezto-users
+
 ## Homebrew
 
 旧 PC で以下のコマンドを実行し、必要なアプリケーションのみを移行する
